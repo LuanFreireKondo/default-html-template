@@ -1,0 +1,137 @@
+    * {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    list-style: none;
+    
+    /* box sizing */
+        
+    box-sizing: border-box;
+        
+    padding: 0px;
+    margin: 0px;
+    }
+
+    html {    
+    padding: 0px;
+    margin: 0px;
+        
+    /* no tap color */
+        
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;    
+        
+    }
+
+    body {
+    width: auto;
+    height: auto;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    }
+
+    h1, h1 a, 
+    h2, h2 a, 
+    h3, h3 a, 
+    h4, h4 a, 
+    h5, h5 a, 
+    h6, h6 a {
+    padding: 0px;
+    margin: 0px;
+    }
+
+    a {
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+    p {
+    line-height: 20px;
+    margin: 0px;
+    }
+
+    img {
+    border: 0px;
+    margin: 0px;
+    }
+
+    ul, ol {
+    padding: 0px;
+    margin: 0px;
+    }
+
+    input, textarea{
+    -webkit-appearance: none;
+    appearance: none;
+    }
+
+    /* == align flex == */
+
+    .align{
+    position: relative;
+
+    display: -webkit-flex; /* webkit */
+
+    display: flex;
+    }              
+
+    .align-start{
+
+    -webkit-justify-content: flex-start; /* webkit */
+
+    justify-content: flex-start;
+
+    }  
+
+    .align-center{
+
+    -webkit-justify-content: center; /* webkit */
+
+    justify-content: center;
+
+    }    
+
+    .align-end{
+
+    -webkit-justify-content: flex-end; /* webkit */
+
+    justify-content: flex-end;
+
+    }    
+
+    .align-top{
+
+    align-items: flex-start;
+        
+    }  
+
+    .align-middle{
+
+    align-items: center;
+        
+    }   
+
+    .align-bottom{
+
+    align-items: flex-end;
+
+    }     
+
+    .align-space{
+
+    -webkit-justify-content: space-around; /* webkit */
+
+    justify-content: space-around;
+
+    }       
+
+    .align-space-b{
+
+    -webkit-justify-content: space-between; /* webkit */
+
+    justify-content: space-between;
+
+    }   
