@@ -1,76 +1,59 @@
-    * {
-    font-family: arial, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    list-style: none;
-    
+    * {    
+
     /* box sizing */
         
     box-sizing: border-box;
         
-    padding: 0px;
-    margin: 0px;
-    }
-
-    html {    
-    padding: 0px;
-    margin: 0px;
-        
     /* no tap color */
         
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    -webkit-tap-highlight-color: transparent;    
+    -webkit-tap-highlight-color: transparent;
         
     }
 
     body {
-    width: auto;
-    height: auto;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
     color: #000;
-    background-color: #fff;
-    position: relative;
+    }
+
+    body, h1, h2, h3, h4, h5, h6, p, ul, ol {
     padding: 0px;
     margin: 0px;
     }
 
-    h1, h1 a, 
-    h2, h2 a, 
-    h3, h3 a, 
-    h4, h4 a, 
-    h5, h5 a, 
-    h6, h6 a {
-    padding: 0px;
-    margin: 0px;
-    }
-
-    a {
-    cursor: pointer;
-    text-decoration: none;
-    }
-
-    p {
-    line-height: 20px;
-    margin: 0px;
-    }
-
-    img {
-    border: 0px;
-    margin: 0px;
+    h1, h2, h3, h4, h5, h6, p {
+    line-height: normal;
     }
 
     ul, ol {
-    padding: 0px;
-    margin: 0px;
+    list-style: none;
     }
 
-    input, textarea{
+    a {
+    color: aqua;
+    text-decoration: none;
+    }
+
+    img, iframe {
+    border: 0px;
+    display: block;
+    }
+
+    input, select, textarea, button {
     -webkit-appearance: none;
     appearance: none;
     }
 
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
     /* == align flex == */
 
-    .align{
+    .align {
     position: relative;
 
     display: -webkit-flex; /* webkit */
@@ -78,7 +61,7 @@
     display: flex;
     }              
 
-    .align-start{
+    .align-start {
 
     -webkit-justify-content: flex-start; /* webkit */
 
@@ -86,7 +69,7 @@
 
     }  
 
-    .align-center{
+    .align-center {
 
     -webkit-justify-content: center; /* webkit */
 
@@ -94,7 +77,7 @@
 
     }    
 
-    .align-end{
+    .align-end {
 
     -webkit-justify-content: flex-end; /* webkit */
 
@@ -102,25 +85,25 @@
 
     }    
 
-    .align-top{
+    .align-top {
 
     align-items: flex-start;
         
     }  
 
-    .align-middle{
+    .align-middle {
 
     align-items: center;
         
     }   
 
-    .align-bottom{
+    .align-bottom {
 
     align-items: flex-end;
 
     }     
 
-    .align-space{
+    .align-space {
 
     -webkit-justify-content: space-around; /* webkit */
 
@@ -128,7 +111,7 @@
 
     }       
 
-    .align-space-b{
+    .align-space-b {
 
     -webkit-justify-content: space-between; /* webkit */
 
