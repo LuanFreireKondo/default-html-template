@@ -1,21 +1,19 @@
-    * {    
+    /* ====== reset ====== */
 
-    /* box sizing */
-        
+    * {    
     box-sizing: border-box;
         
-    /* no tap color */
-        
+    /* no tap color - webkit */
+
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
-        
     }
 
     body {
     font-family: arial, sans-serif;
     font-size: 14px;
     font-style: normal;
-    color: #000;
+    color: #333;
     }
 
     body, h1, h2, h3, h4, h5, h6, p, ul, ol {
@@ -32,7 +30,7 @@
     }
 
     a {
-    color: aqua;
+    color: #9c27b0;
     text-decoration: none;
     }
 
@@ -51,70 +49,72 @@
     border-spacing: 0;
     }
 
-    /* == align flex == */
+    /* == flex == */
 
     .align {
-    position: relative;
-
+        
+    flex-wrap: wrap;
+        
     display: -webkit-flex; /* webkit */
-
+        
     display: flex;
+        
     }              
 
-    .align-start {
-
+    .align-left {
+        
     -webkit-justify-content: flex-start; /* webkit */
-
+        
     justify-content: flex-start;
-
+        
     }  
 
     .align-center {
-
+        
     -webkit-justify-content: center; /* webkit */
-
+        
     justify-content: center;
-
+        
     }    
 
-    .align-end {
-
+    .align-right {
+        
     -webkit-justify-content: flex-end; /* webkit */
-
+        
     justify-content: flex-end;
-
+        
     }    
 
     .align-top {
-
+        
     align-items: flex-start;
         
     }  
 
     .align-middle {
-
+        
     align-items: center;
         
     }   
 
     .align-bottom {
-
+        
     align-items: flex-end;
-
+        
     }     
 
-    .align-space {
-
+    .align-around {
+        
     -webkit-justify-content: space-around; /* webkit */
-
+        
     justify-content: space-around;
-
+        
     }       
 
-    .align-space-b {
-
+    .align-between {
+        
     -webkit-justify-content: space-between; /* webkit */
-
+        
     justify-content: space-between;
-
+        
     }   
