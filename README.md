@@ -1,2 +1,3 @@
-# default-html-template
-default .html template for begginers
+# Default .html template
+
+My default .html template for begginers.
