@@ -1,3 +1,3 @@
 # Default .html template
 
-My default .html template for beginners.
+My basic html template for beginners and simple tests.

@@ -1,7 +1,4 @@
-window.addEventListener('load', function(){
-    
-    //
+window.addEventListener('load', () => {
 
-    console.log('Load hello.js');
-
-});
+  console.log('Page loaded :)')
+})

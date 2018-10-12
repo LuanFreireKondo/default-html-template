@@ -1,26 +1,17 @@
-    /* ====== header ====== */
 
-    header {
-        
-        
-    }
+  header {
 
-    /* ====== section ====== */
+  }
 
-    section {
-        
-        
-    }
+  section {
 
-    /* ====== footer ====== */
+  }
 
-    footer {
-        
-        
-    }
+  footer {
 
-    /* == media querie 1024 == */
+  }
 
-    @media (max-width: 1024px) {
+  /* media querie 1024 */
+  @media (max-width: 1024px) {
 
-    }
+  }

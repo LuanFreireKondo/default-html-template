@@ -1,27 +1,27 @@
 {
-    "short_name": "HTML Template",
-    "name": "HTML Template",
-    "description": "default .html template for begginers",
-    "display": "standalone",
-    "orientation": "portrait",
-    "background_color": "#9c27b0",
-    "theme_color": "#9c27b0",
-    "icons": [
-        {
-            "src": "images/launcher-icon-1x.png",
-            "type": "image/png",
-            "sizes": "48x48"
-        },
-        {
-            "src": "images/launcher-icon-2x.png",
-            "type": "image/png",
-            "sizes": "96x96"
-        },
-        {
-            "src": "images/launcher-icon-4x.png",
-            "type": "image/png",
-            "sizes": "192x192"
-        }
-    ],
-    "start_url": "index.html?launcher=true"
+  "short_name": "HTML Template",
+  "name": "HTML Template",
+  "description": "basic html template for beginners",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#9c27b0",
+  "theme_color": "#9c27b0",
+  "icons": [
+    {
+      "src": "images/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96",
+    },
+    {
+      "src": "images/launcher-icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192",
+    },
+  ],
+  "start_url": "index.html?launcher=true",
 }
